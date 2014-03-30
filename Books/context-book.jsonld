@@ -1,0 +1,9 @@
+{
+  "@context":
+  {
+    "name": "http://schema.org/name",
+    "publisher": "http://schema.org/publisher",
+    "datePublished": "http://schema.org/datePublished",
+    "author": "http://schema.org/author",
+  }
+}
