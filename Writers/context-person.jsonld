@@ -7,7 +7,7 @@
     {
       "@id": "http://schema.org/additionalName",
       "@container": "@set"
-    }
+    },
     "birthDate": "http://schema.org/birthDate",
     "deathDate": "http://schema.org/deathDate",
     "gender": "http://schema.org/gender",
@@ -16,6 +16,6 @@
     {
       "@id": "http://schema.org/owns",
       "@container": "@set"
-    }    
+    }
   }
 }
