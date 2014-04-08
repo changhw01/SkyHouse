@@ -2,8 +2,14 @@
   "@context":
   {
     "name": "http://schema.org/name",
-    "publisher": "http://schema.org/publisher",
+    "publisher": {
+      "@id": "http://schema.org/publisher",
+      "@type": "@id"
+    },
     "datePublished": "http://schema.org/datePublished",
-    "author": "http://schema.org/author"
+    "author": {
+      "@id": "http://schema.org/author",
+      "@type": "@id"
+    }
   }
 }

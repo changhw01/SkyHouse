@@ -1,7 +1,10 @@
 {
   "@context":
   {
-    "url": "http://schema.org/url",
+    "url": {
+      "@id": "http://schema.org/url",
+      "@type": "@id"
+    },
     "name": "http://schema.org/name",
     "cuisine": "http://schema.org/recipeCuisine",
     "ingredients":
@@ -9,7 +12,7 @@
       "@id": "http://schema.org/ingredients",
       "@container": "@set"
     },
-    "seasonings": 
+    "seasonings":
     {
       "@id": "http://food-linked-data.org/seasonings",
       "@container": "@set"
